@@ -61,7 +61,7 @@ function App() {
                 {/* image */}
                 <div className=" z-10 h-[400px] w-[280px] rounded-xl overflow-hidden shadow-lg cover">
                   <img
-                    src="public\assets\foto\sahrul2.jpg"
+                    src="/assets/foto/sahrul2.jpg"
                     alt=""
                     className="h-full w-full object-cover"
                   />
@@ -82,7 +82,7 @@ function App() {
                 <div className=" flex justify-start ">
                   <div className="relative">
                     <img
-                      src="public\assets\foto\arul.jpg"
+                      src="/assets/foto/arul.jpg"
                       alt=""
                       className="h-[400px] w-[300px] object-cover rounded-xl shadow-lg shadow-gray-300"
                     />
@@ -283,7 +283,7 @@ function App() {
         {/* Gambar (Figure) */}
         <figure className="overflow-hidden">
           <img
-            src="public\assets\porto\image.png"
+            src="/assets/porto/image.png"
             alt="alkaf"
             className="w-full h-auto object-cover transform group-hover:scale-[1.05] transition-transform duration-500" // Efek zoom hover
           />
