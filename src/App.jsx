@@ -160,12 +160,12 @@ function App() {
           {/* services */}
           <section
             id="services"
-            className="pt-20 items-center min-h-screen bg-gray-100 dark:bg-gray-80 w-screen relative left-1/2 -translate-x-1/2 scroll-mt-20"
+            className="pt-20 items-center min-h-screen bg-gray-100 dark:bg-gray-400 w-screen relative left-1/2 -translate-x-1/2 scroll-mt-20"
           >
             <div className="max-w-7xl mx-auto p-4">
               <div className="text-center flex flex-col justify-center items-center mb-20">
                 <p className="text-lg font-medium text-blue-400">services</p>
-                <h2 className="text-4xl font-bold mb-4 text-black dark:text-white ">Service I Provide</h2>
+                <h2 className="text-4xl font-bold mb-4 text-black ">Service I Provide</h2>
                 <div className="flex gap-1">
                   <div className="w-20 bg-blue-400 h-1 rounded-2xl" />
                   <div className="w-10 bg-blue-400 h-1 rounded-2xl" />
@@ -245,12 +245,12 @@ function App() {
   <div className="max-w-7xl mx-auto px-4">
     
     {/* HEADER SECTION */}
-    <div className="flex justify-center mb-16"> 
+    <div className="flex justify-center mb-16 dark:bg-gray-400"> 
       <div className="flex flex-col justify-center items-center max-w-2xl text-center"> {/* Batasi lebar teks */}
         <p className="text-lg font-medium text-blue-500">
           Creative Portfolios
         </p>
-        <h1 className="text-4xl font-bold mt-2 mb-4">Recent Works</h1>
+        <h1 className="text-4xl font-bold mt-2 mb-4 text-black">Recent Works</h1>
         <p className="text-gray-500 font-medium px-4">
           There are many variations of passages of Lorem Ipsum
           available but the majority have suffered alteration in some
@@ -292,7 +292,7 @@ function App() {
         
         {/* Body Card */}
         <div className="p-6">
-          <h2 className="text-xl text-black dark:text-gray-300 font-bold mb-2 group-hover:text-blue-600 transition duration-200">
+          <h2 className="text-xl text-black font-bold mb-2 group-hover:text-blue-600 transition duration-200">
             Company profile website alkaf Store
           </h2>
           <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm">
