@@ -13,6 +13,7 @@ function App() {
 
   return (
     <>
+    <div className="bg-white -z-99 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
       <Layout>
         <main className="">
           {/* header */}
@@ -20,24 +21,24 @@ function App() {
             id="home"
             className="p-4 min-h-screen relative pt-20 scroll-mt-20"
           >
-            <div className="absolute -z-50 h-[1000px] w-[1000px] bg-blue-400 -right-[600px] -top-80 rounded-full blur-2xl opacity-20" />
-            <div className="absolute -z-50 h-[800px] w-[800px] bg-pink-400 -left-[300px] top-40 rounded-full blur-2xl opacity-10" />
+            <div className="absolute  h-[1000px] w-[1000px] bg-blue-400 -right-[600px] -top-80 rounded-full blur-2xl opacity-20" />
+            <div className="absolute  h-[800px] w-[800px] bg-pink-400 -left-[300px] top-40 rounded-full blur-2xl opacity-10" />
             <div className="grid grid-cols-1 md:grid-cols-2 place-items-center h-full">
               {/* left */}
-              <div className="order-2 md:order-1 flex justify-center items-center">
+              <div className="order-2 md:order-1 z-10 flex justify-center items-center">
                 <div className="flex flex-col text-center md:text-left">
                   <div className="flex flex-col text-left">
                     <p className="font-medium text-blue-400 text-lg">
                       Hey There, I am
                     </p>
-                    <h1 className="text-4xl lg:text-5xl font-bold mt-1 ">
+                    <h1 className="text-4xl lg:text-5xl font-bold mt-1 text-black dark:text-white ">
                       Muhamad Khaerul Rijal
                     </h1>
                     <h3 className="text-gray-400 font-bold text-lg">
                       Profesional{" "}
-                      <span className="text-black">Frontend Developer</span>
+                      <span className="text-black dark:text-white">Frontend Developer</span>
                     </h3>
-                    <p className="mt-5 text-base text-gray-500 max-w-lg mx-auto md:mx-0">
+                    <p className="mt-5 text-base text-gray-500 dark:text-gray-400 max-w-lg mx-auto md:mx-0">
                       I am a frontend developer with experience in building web
                       applications using React, Tailwind CSS, and other modern
                       web technologies. I am passionate about creating beautiful
@@ -66,8 +67,8 @@ function App() {
                     className="h-full w-full object-cover"
                   />
                 </div>
-                <div className="absolute -z-10 rotate-45 h-[400px] w-[280px] rounded-xl bg-blue-200 top-12" />
-                <div className="absolute -z-10 rotate-12 h-[400px] w-[280px] rounded-xl bg-blue-400 top-12" />
+                <div className="absolute  rotate-45 h-[400px] w-[280px] rounded-xl bg-blue-200 top-12" />
+                <div className="absolute  rotate-12 h-[400px] w-[280px] rounded-xl bg-blue-400 top-12" />
               </div>
             </div>
           </section>
@@ -77,7 +78,7 @@ function App() {
             id="about"
             className="min-h-screen flex justify-center items-center px-4 md:py-20 relative"
           >
-            <div className=" flex justify-center items-center border border-gray-300 w-full bg-white  py-20 shadow-xl shadow-gray-300 rounded-2xl">
+            <div className=" flex justify-center items-center border border-gray-300 dark:border-gray-700 w-full bg-white dark:bg-gray-800 py-20 shadow-xl shadow-gray-300 dark:shadow-gray-900/50 rounded-2xl">
               <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
                 <div className=" flex justify-start ">
                   <div className="relative">
@@ -86,7 +87,7 @@ function App() {
                       alt=""
                       className="h-[400px] w-[300px] object-cover rounded-xl shadow-lg shadow-gray-300"
                     />
-                    <div className="absolute z-10 w-60 -bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 flex justify-center bg-white rounded-2xl shadow-lg">
+                    <div className="absolute z-10 w-60 -bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 flex justify-center bg-white dark:bg-gray-700 rounded-2xl shadow-lg dark:shadow-xl dark:shadow-gray-900/70">
                       <ul className="flex gap-4 p-4 justify-between w-full">
                         <li className="font-bold">
                           <a
@@ -126,8 +127,8 @@ function App() {
                 </div>
                 <div className="max-w-lg flex justify-center mt-20 md:mt-0 px-4">
                   <div className=" w-full">
-                    <h2 className="text-4xl font-bold mb-4">About Me</h2>
-                    <p className="mb-4">
+                    <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">About Me</h2>
+                    <p className="mb-4 text-gray-600 dark:text-gray-300">
                       Hello! I'm Muhamad Khaerul Rijal, a passionate Frontend
                       Developer with a knack for creating engaging and
                       user-friendly web applications. With a strong foundation
@@ -153,18 +154,18 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="-z-10 absolute bottom-0 h-80 bg-gray-100 w-screen left-1/2 -translate-x-1/2"></div>
+            <div className="-z-10 absolute bottom-0 h-80 bg-gray-100 dark:bg-gray-700 w-screen left-1/2 -translate-x-1/2"></div>
           </section>
 
           {/* services */}
           <section
             id="services"
-            className="pt-20 items-center min-h-screen bg-gray-100 w-screen relative left-1/2 -translate-x-1/2 scroll-mt-20"
+            className="pt-20 items-center min-h-screen bg-gray-100 dark:bg-gray-80 w-screen relative left-1/2 -translate-x-1/2 scroll-mt-20"
           >
             <div className="max-w-7xl mx-auto p-4">
               <div className="text-center flex flex-col justify-center items-center mb-20">
                 <p className="text-lg font-medium text-blue-400">services</p>
-                <h2 className="text-4xl font-bold mb-4 ">Service I Provide</h2>
+                <h2 className="text-4xl font-bold mb-4 text-black dark:text-white ">Service I Provide</h2>
                 <div className="flex gap-1">
                   <div className="w-20 bg-blue-400 h-1 rounded-2xl" />
                   <div className="w-10 bg-blue-400 h-1 rounded-2xl" />
@@ -178,11 +179,11 @@ function App() {
 
                   {dataServices.map((service) => (
                     <div key={service.id}>
-                      <div className="bg-white p-6 rounded-2xl shadow-lg shadow-gray-300 hover:scale-105 transition-all duration-150">
+                      <div className="bg-white dark:bg-gray-700 p-6 rounded-2xl shadow-lg shadow-gray-300 hover:scale-105 transition-all duration-150">
                         <h3 className="text-xl font-bold mb-4">
                           {service.title}
                         </h3>
-                        <p className="text-gray-500">{service.description}</p>
+                        <p className="text-gray-500 dark:text-gray-300">{service.description}</p>
                       </div>
                     </div>
                   ))}
@@ -196,7 +197,7 @@ function App() {
             <div className="max-w-7xl mx-auto p-4">
               <div className="flex justify-center">
               <div className="flex flex-col items-center text-center w-2xl gap-5">
-              <h2 className="text-4xl font-bold text-center">
+              <h2 className="text-4xl font-bold text-center text-black dark:text-white ">
                 User Tools
               </h2>
               <div className="flex gap-1">
@@ -204,7 +205,7 @@ function App() {
                   <div className="w-10 bg-blue-400 h-1 rounded-2xl" />
                   <div className="w-5 bg-blue-400 h-1 rounded-2xl" />
                 </div>
-              <p>I would like to share the tools I frequently use in creating websites. These tools help me build efficient, scalable, and responsive web applications.</p>
+              <p className="text-gray-500 dark:text-gray-300">I would like to share the tools I frequently use in creating websites. These tools help me build efficient, scalable, and responsive web applications.</p>
               
               </div>
               </div>
@@ -213,7 +214,7 @@ function App() {
                 {dataSkills.map((skill) => (
                   <div
                     key={skill.id}
-                    className="group relative overflow-hidden bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.03] cursor-default" // Tambahkan hover:scale
+                    className="group relative overflow-hidden bg-white dark:bg-gray-700 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.03] cursor-default" // Tambahkan hover:scale
                   >
                     <div className="absolute inset-0 bg-blue-500/40 transform scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500 ease-out z-0"></div>
 
@@ -225,7 +226,7 @@ function App() {
                       <p className="font-bold text-lg group-hover:text-white transition-colors duration-300">
                         {skill.name}
                       </p>
-                      <p className="text-sm text-gray-500 group-hover:text-white transition-colors duration-300 mt-1">
+                      <p className="text-sm text-gray-500 dark:text-gray-300 group-hover:text-white transition-colors duration-300 mt-1">
                         {skill.description}
                       </p>
                     </div>
@@ -291,10 +292,10 @@ function App() {
         
         {/* Body Card */}
         <div className="p-6">
-          <h2 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition duration-200">
+          <h2 className="text-xl text-black dark:text-gray-300 font-bold mb-2 group-hover:text-blue-600 transition duration-200">
             Company profile website alkaf Store
           </h2>
-          <p className="text-gray-600 mb-4 text-sm">
+          <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm">
             A company profile website for Alkaf Store, built using
             React and Tailwind CSS.
           </p>
@@ -318,10 +319,10 @@ function App() {
           />
         </figure>
         <div className="p-6">
-          <h2 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition duration-200">
+          <h2 className="text-xl text-black dark:text-gray-300 font-bold mb-2 group-hover:text-blue-600 transition duration-200">
             UI/UX Dashboard Concept
           </h2>
-          <p className="text-gray-600 mb-4 text-sm">
+          <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm">
             A concept dashboard design built for analytics and management tools.
           </p>
           <div className="flex justify-end">
@@ -341,10 +342,10 @@ function App() {
           />
         </figure>
         <div className="p-6">
-          <h2 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition duration-200">
+          <h2 className="text-xl text-black dark:text-gray-300 font-bold mb-2 group-hover:text-blue-600 transition duration-200">
             E-Commerce Landing Page
           </h2>
-          <p className="text-gray-600 mb-4 text-sm">
+          <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm">
             A fully responsive e-commerce landing page prototype using React.
           </p>
           <div className="flex justify-end">
@@ -360,6 +361,7 @@ function App() {
 </section>
         </main>
       </Layout>
+      </div>
     </>
   );
 }
