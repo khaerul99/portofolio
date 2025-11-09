@@ -240,12 +240,12 @@ function App() {
 
           <section
   id="portfolio" // Ganti id menjadi 'portfolio' agar lebih jelas
-  className="py-20 flex justify-center items-center bg-gray-100 w-screen relative left-1/2 -translate-x-1/2 scroll-mt-20"
+  className="py-20 flex justify-center items-center bg-gray-100 dark:bg-gray-400 w-screen relative left-1/2 -translate-x-1/2 scroll-mt-20"
 >
   <div className="max-w-7xl mx-auto px-4">
     
     {/* HEADER SECTION */}
-    <div className="flex justify-center mb-16 dark:bg-gray-400"> 
+    <div className="flex justify-center mb-16 "> 
       <div className="flex flex-col justify-center items-center max-w-2xl text-center"> {/* Batasi lebar teks */}
         <p className="text-lg font-medium text-blue-500">
           Creative Portfolios
@@ -279,7 +279,7 @@ function App() {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10 gap-8"> 
       
       
-      <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden group">
+      <div className="bg-white dark:bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden group">
         
         {/* Gambar (Figure) */}
         <figure className="overflow-hidden">
@@ -292,10 +292,10 @@ function App() {
         
         {/* Body Card */}
         <div className="p-6">
-          <h2 className="text-xl text-black font-bold mb-2 group-hover:text-blue-600 transition duration-200">
+          <h2 className="text-xl text-black dark:text-gray-300 font-bold mb-2 group-hover:text-blue-600 transition duration-200">
             Company profile website alkaf Store
           </h2>
-          <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm">
+          <p className="text-gray-600 dark:text-gray-400 mb-4 text-sm">
             A company profile website for Alkaf Store, built using
             React and Tailwind CSS.
           </p>
@@ -322,7 +322,7 @@ function App() {
           <h2 className="text-xl text-black dark:text-gray-300 font-bold mb-2 group-hover:text-blue-600 transition duration-200">
             UI/UX Dashboard Concept
           </h2>
-          <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm">
+          <p className="text-gray-600 dark:text-gray-400 mb-4 text-sm">
             A concept dashboard design built for analytics and management tools.
           </p>
           <div className="flex justify-end">
@@ -345,7 +345,7 @@ function App() {
           <h2 className="text-xl text-black dark:text-gray-300 font-bold mb-2 group-hover:text-blue-600 transition duration-200">
             E-Commerce Landing Page
           </h2>
-          <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm">
+          <p className="text-gray-600 dark:text-gray-400 mb-4 text-sm">
             A fully responsive e-commerce landing page prototype using React.
           </p>
           <div className="flex justify-end">
