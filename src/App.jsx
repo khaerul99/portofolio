@@ -310,7 +310,7 @@ function App() {
       </div>
       
       
-      <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden group">
+      <div className="bg-white dark:bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden group">
         <figure className="overflow-hidden">
           <img
             src="https://placehold.co/600x400/ECEFF1/333333?text=Design+Project"
@@ -333,7 +333,7 @@ function App() {
         </div>
       </div>
       
-      <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden group">
+      <div className="bg-white dark:bg-gray-700  rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden group">
         <figure className="overflow-hidden">
           <img
             src="https://placehold.co/600x400/E0F2F1/333333?text=Web+App+Prototype"
