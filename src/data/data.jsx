@@ -77,3 +77,52 @@ export const skills = [
     description: "CSS Framework",
   },
 ];
+
+
+
+// src/data/TimelineData.js
+
+export const ResumeData = [
+    {
+        id: 1,
+        title: "UI/UX Designer",
+        company: "Google INC",
+        location: "New York",
+        period: "2011 - 2013",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        type: "experience", 
+        alignment: "left"
+    },
+    {
+        id: 2,
+        title: "Specialization Course",
+        company: "Stanford University",
+        location: "New York",
+        period: "2017 - 2018",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        type: "education",
+        alignment: "right"
+    },
+    {
+        id: 3,
+        title: "Web Designer",
+        company: "Facebook INC",
+        location: "New York",
+        period: "2014 - 2016",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        type: "experience",
+        alignment: "left"
+    },
+    {
+        id: 4,
+        title: "Web Designer",
+        company: "Facebook INC",
+        location: "New York",
+        period: "2014 - 2016",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        type: "experience",
+        alignment: "right"
+    }
+   
+];
+

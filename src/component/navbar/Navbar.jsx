@@ -34,12 +34,12 @@ export default function Navbar() {
               </a>
             </li>
             <li className="text-gray-800 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
-              <a href="#skill" className="px-4 py-2">
-                Skills
+              <a href="#porto" className="px-4 py-2">
+                Portofolio
               </a>
             </li>
             <li className="text-gray-800 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
-              <a href="#about" className="px-4 py-2">
+              <a href="#contact" className="px-4 py-2">
                 Contact
               </a>
             </li>
@@ -88,12 +88,12 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li className="text-gray-500 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
-                  <a href="#about" className="px-4 py-2">
-                    Project
+                  <a href="#porto" className="px-4 py-2">
+                    Portofolio
                   </a>
                 </li>
                 <li className="text-gray-500 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
-                  <a href="#about" className="px-4 py-2">
+                  <a href="#contact" className="px-4 py-2">
                     Contact
                   </a>
                 </li>
