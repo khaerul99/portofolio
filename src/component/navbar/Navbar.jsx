@@ -46,7 +46,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="flex items-center gap-4 relative">
-          <button className=" py-2 px-4 bg-[#284B63] dark:bg-[#d9d9d9] rounded-lg text-white font-medium">
+          <button className=" py-2 px-4 bg-[#284B63] rounded-lg text-white font-medium">
             <a
               href="/assets/doc/CV-Muhamad Khaerul Rijal.pdf"
               download="CV_Muhamad_Khaerul_Rijal.pdf"
