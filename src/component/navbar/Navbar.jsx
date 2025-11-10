@@ -18,27 +18,27 @@ export default function Navbar() {
         {/* lg */}
         <div className="justify-center items-center hidden md:flex">
           <ul className="flex gap-6 font-bold">
-            <li className="text-gray-800 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
+            <li className="text-[#353535] hover:text-[#284b63] active:scale-95 hover:scale-105 transition-all duration-100">
               <a href="#home" className="px-4 py-2">
                 Home
               </a>
             </li>
-            <li className="text-gray-800 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
+            <li className="text-[#353535] hover:text-[#284b63] active:scale-95 hover:scale-105 transition-all duration-100">
               <a href="#about" className="px-4 py-2">
                 About
               </a>
             </li>
-            <li className="text-gray-800 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
+            <li className="text-[#353535] hover:text-[#284b63] active:scale-95 hover:scale-105 transition-all duration-100">
               <a href="#services" className="px-4 py-2">
                 Services
               </a>
             </li>
-            <li className="text-gray-800 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
+            <li className="text-[#353535] hover:text-[#284b63] active:scale-95 hover:scale-105 transition-all duration-100">
               <a href="#porto" className="px-4 py-2">
                 Portofolio
               </a>
             </li>
-            <li className="text-gray-800 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
+            <li className="text-[#353535] hover:text-[#284b63] active:scale-95 hover:scale-105 transition-all duration-100">
               <a href="#contact" className="px-4 py-2">
                 Contact
               </a>
@@ -46,9 +46,9 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="flex items-center gap-4 relative">
-          <button className=" py-2 px-4 bg-blue-400 rounded-lg text-white font-medium">
+          <button className=" py-2 px-4 bg-[#284B63] dark:bg-[#d9d9d9] rounded-lg text-white font-medium">
             <a
-              href="public\assets\doc\CV-Muhamad Khaerul Rijal.pdf"
+              href="/assets/doc/CV-Muhamad Khaerul Rijal.pdf"
               download="CV_Muhamad_Khaerul_Rijal.pdf"
               className="cursor-pointer px-4 py-2 "
             >
@@ -72,27 +72,27 @@ export default function Navbar() {
           >
             <div className="justify-center items-center flex">
               <ul className="flex flex-col gap-6 font-bold w-full text-center">
-                <li className="text-gray-500 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
+                <li className="text-[#353535] hover:text-[#284b63] active:scale-95 hover:scale-105 transition-all duration-100">
                   <a href="#home" className="px-4 py-2">
                     Home
                   </a>
                 </li>
-                <li className="text-gray-500 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
+                <li className="text-[#353535] hover:text-[#284b63] active:scale-95 hover:scale-105 transition-all duration-100">
                   <a href="#about" className="px-4 py-2">
                     About
                   </a>
                 </li>
-                <li className="text-gray-500 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
+                <li className="text-[#353535] hover:text-[#284b63] active:scale-95 hover:scale-105 transition-all duration-100">
                   <a href="#services" className="px-4 py-2">
                     Services
                   </a>
                 </li>
-                <li className="text-gray-500 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
+                <li className="text-[#353535] hover:text-[#284b63] active:scale-95 hover:scale-105 transition-all duration-100">
                   <a href="#porto" className="px-4 py-2">
                     Portofolio
                   </a>
                 </li>
-                <li className="text-gray-500 hover:text-blue-500 active:scale-95 hover:scale-105 transition-all duration-100">
+                <li className="text-[#353535] hover:text-[#284b63] active:scale-95 hover:scale-105 transition-all duration-100">
                   <a href="#contact" className="px-4 py-2">
                     Contact
                   </a>

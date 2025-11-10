@@ -1,6 +1,7 @@
 import { FaHtml5, FaReact, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiAdobephotoshop, SiCanva } from "react-icons/si";
 
 export const services = [
   {
@@ -75,6 +76,18 @@ export const skills = [
     icon: <RiTailwindCssFill size={50} color="" className="text-gray-500 group-hover:text-[#38B2AC] transition-all duration-200" />,
     name: "tailwind CSS",
     description: "CSS Framework",
+  },
+  {
+    id: 6,
+    icon: <SiAdobephotoshop size={50} color="" className="text-gray-500 group-hover:text-[#00376b] transition-all duration-200" />,
+    name: "Adobe Photoshop",
+    description: "Design & Photo Editing",
+  },
+  {
+    id: 7,
+    icon: <SiCanva size={50} color="" className="text-gray-500 group-hover:text-[#004bad] transition-all duration-200" />,
+    name: "Canva",
+    description: "Design & Photo Editing",
   },
 ];
 

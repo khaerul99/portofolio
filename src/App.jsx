@@ -51,7 +51,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-white -z-99 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
+      <div className="bg-white -z-99 dark:bg-[#353535] text-gray-900 dark:text-gray-100 min-h-screen">
         <Layout>
           <main className="">
             {/* header */}
@@ -59,14 +59,14 @@ function App() {
               id="home"
               className="p-4 min-h-screen relative pt-20 scroll-mt-20"
             >
-              <div className="absolute  h-[1000px] w-[1000px] bg-blue-400 -right-[600px] -top-80 rounded-full blur-2xl opacity-20" />
-              <div className="absolute  h-[800px] w-[800px] bg-pink-400 -left-[300px] top-40 rounded-full blur-2xl opacity-10" />
+              <div className="absolute  h-[1000px] w-[1000px] bg-[#284b63] -right-[600px] -top-80 rounded-full blur-2xl opacity-20" />
+              <div className="absolute  h-[800px] w-[800px] bg-[#3c6e71] -left-[300px] top-40 rounded-full blur-2xl opacity-10" />
               <div className="grid grid-cols-1 md:grid-cols-2 place-items-center h-full">
                 {/* left */}
                 <div className="order-2 md:order-1 z-10 flex justify-center items-center">
                   <div className="flex flex-col text-center md:text-left">
                     <div className="flex flex-col text-left">
-                      <p className="font-medium text-blue-400 text-lg">
+                      <p className="font-medium text-[#284b63] text-lg">
                         Hey There, I am
                       </p>
                       <h1 className="text-4xl lg:text-5xl font-bold mt-1 text-black dark:text-white ">
@@ -74,11 +74,11 @@ function App() {
                       </h1>
                       <h3 className="text-gray-400 font-bold text-lg">
                         Profesional{" "}
-                        <span className="text-black dark:text-white">
+                        <span className="text-[#284b63] dark:text-white">
                           Frontend Developer
                         </span>
                       </h3>
-                      <p className="mt-5 text-base text-gray-500 dark:text-gray-400 max-w-lg mx-auto md:mx-0">
+                      <p className="mt-5 text-base text-[#353535] dark:text-gray-400 max-w-lg mx-auto md:mx-0">
                         I am a frontend developer with experience in building
                         web applications using React, Tailwind CSS, and other
                         modern web technologies. I am passionate about creating
@@ -87,10 +87,10 @@ function App() {
                       </p>
                     </div>
                     <div className="flex mt-8 gap-4 justify-center md:justify-start">
-                      <button className="px-4 py-2 bg-blue-400 rounded-full text-white hover:bg-blue-500 transition duration-200">
+                      <button className="px-4 py-2 bg-[#284b63] rounded-full text-white hover:bg-[#1f394b] transition duration-200">
                         Contact Me
                       </button>
-                      <button className="px-4 py-2 bg-blue-950 rounded-full text-white hover:bg-blue-800 transition duration-200">
+                      <button className="px-4 py-2 bg-[#3c6e71] rounded-full text-white hover:bg-[#2c5052] transition duration-200">
                         Learn More
                       </button>
                     </div>
@@ -107,8 +107,8 @@ function App() {
                       className="h-full w-full object-cover"
                     />
                   </div>
-                  <div className="absolute  rotate-45 h-[400px] w-[280px] rounded-xl bg-blue-200 top-12" />
-                  <div className="absolute  rotate-12 h-[400px] w-[280px] rounded-xl bg-blue-400 top-12" />
+                  <div className="absolute  rotate-45 h-[400px] w-[280px] rounded-xl bg-[#284b63] top-12 opacity-40" />
+                  <div className="absolute  rotate-12 h-[400px] w-[280px] rounded-xl bg-[#284b63] top-12" />
                 </div>
               </div>
             </section>
@@ -184,7 +184,7 @@ function App() {
                         </button>
                         <button className=" border border-blue-950 rounded-lg text-blue-950 font-medium">
                           <a
-                            href="public\assets\doc\CV-Muhamad Khaerul Rijal.pdf"
+                            href="/assets\doc/CV-Muhamad Khaerul Rijal.pdf"
                             download="CV_Muhamad_Khaerul_Rijal.pdf"
                             className="cursor-pointer px-4 py-2 "
                           >
