@@ -18,7 +18,7 @@ export default function Runtime() {
             </header>
             
             <div className="relative">
-                <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-px bg-blue-300 h-full"></div>
+                <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-px bg-[#5ea9ad] h-full"></div>
                 
                 {ResumeData.map((item, index) => (
                     <div key={item.id} className="mb-10 flex">

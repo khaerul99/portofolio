@@ -10,7 +10,7 @@ export default function Contact() {
                 
                 {/* HEADER */}
                 <div className="text-center mb-16">
-                    <p className="text-blue-500 uppercase font-medium text-lg">Contact With Me</p>
+                    <p className="text-[#284b63] dark:text-gray-300 uppercase font-medium text-lg">Contact With Me</p>
                     <h1 className="text-4xl lg:text-5xl font-extrabold my-3 text-gray-900 dark:text-white">
                         Have an Project in Mind?
                     </h1>
@@ -74,7 +74,7 @@ export default function Contact() {
                     <div className="flex justify-center pt-4">
                         <button 
                             type="submit" 
-                            className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300 shadow-lg"
+                            className="px-8 py-3 bg-[#284b63] dark:bg-[#d9d9d9] text-white dark:text-[#284b63] font-semibold rounded-lg hover:bg-blue-700 transition duration-300 shadow-lg"
                         >
                             Contact Me
                         </button>

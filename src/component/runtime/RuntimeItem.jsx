@@ -39,7 +39,7 @@ export default function RuntimeItem({ data }) {
                     <>
                         <h3 className="text-xl font-bold text-gray-800 dark:text-gray-300">{data.title}</h3>
                         <p className="text-gray-600 dark:text-gray-300 italic mb-2">{data.company} | {data.location}</p>
-                        <div className="inline-block bg-[#284b63] dark:bg-[#d9d9d9] text-white text-sm font-medium py-1 px-3 rounded-full mb-3 shadow-md">
+                        <div className="inline-block bg-[#284b63] dark:bg-[#d9d9d9] text-white dark:text-[#284b63] text-sm font-medium py-1 px-3 rounded-full mb-3 shadow-md">
                             {data.period}
                         </div>
                         <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">

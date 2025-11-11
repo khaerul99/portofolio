@@ -126,16 +126,7 @@ export const ResumeData = [
         type: "experience",
         alignment: "left"
     },
-    {
-        id: 4,
-        title: "Web Designer",
-        company: "Facebook INC",
-        location: "New York",
-        period: "2014 - 2016",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        type: "experience",
-        alignment: "right"
-    }
+   
    
 ];
 
