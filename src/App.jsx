@@ -367,7 +367,7 @@ function App() {
                     <div className="flex justify-start mt-16">
                       <button
                         onClick={handleLoadMore}
-                        className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition duration-300 shadow-lg"
+                        className="px-8 py-3 bg-[#284b63] text-white font-semibold rounded-full hover:bg-[#4d7fa1] transition duration-300 shadow-lg"
                       >
                         Lihat Selengkapnya (
                         {filteredPortfolio.length - itemsToShow} Tersisa)
