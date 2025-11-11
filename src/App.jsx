@@ -333,7 +333,7 @@ function App() {
                   {filteredPortfolio.slice(0, itemsToShow).map((item) => (
                     <div
                       key={item.id}
-                      className="bg-white dark:bg-[#284b63] rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden group"
+                      className="bg-white dark:bg-[#353535] rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden group"
                     >
                       <figure className="overflow-hidden">
                         <img
@@ -344,7 +344,7 @@ function App() {
                       </figure>
 
                       <div className="p-6">
-                        <h2 className="text-xl text-black dark:text-gray-300 font-bold mb-2 group-hover:text-blue-600 transition duration-200">
+                        <h2 className="text-xl text-black dark:text-gray-300 font-bold mb-2 group-hover:text-[#4d7fa1] transition duration-200">
                           {item.title}
                         </h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-4 text-sm">
@@ -354,7 +354,7 @@ function App() {
                         <div className="flex justify-end">
                           <a
                             href={item.liveUrl}
-                            className="inline-block px-4 py-1.5 bg-[#3c6e71] text-[#1a3738] text-sm font-semibold rounded-full hover:bg-blue-200 transition duration-200"
+                            className="inline-block px-4 py-1.5 bg-[#284b63] text-[#122a3a] text-sm font-semibold rounded-full hover:bg-blue-200 transition duration-200"
                           >
                             View Project
                           </a>
