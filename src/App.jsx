@@ -238,8 +238,8 @@ function App() {
               </div>
             </section>
 
-            {/* Skills */}
-            <section id="skill" className="py-20 min-h-screen scroll-mt-20">
+            {/* Tools */}
+            <section id="tools" className="py-20 min-h-screen scroll-mt-20">
               <div className="max-w-7xl mx-auto p-4">
                 <div className="flex justify-center">
                   <div className="flex flex-col items-center text-center w-2xl gap-5">
@@ -247,9 +247,9 @@ function App() {
                       User Tools
                     </h2>
                     <div className="flex gap-1">
-                      <div className="w-20 bg-blue-400 h-1 rounded-2xl" />
-                      <div className="w-10 bg-blue-400 h-1 rounded-2xl" />
-                      <div className="w-5 bg-blue-400 h-1 rounded-2xl" />
+                      <div className="w-20 bg-[#284b63] dark:bg-[#d9d9d9] h-1 rounded-2xl" />
+                      <div className="w-10 bg-[#284b63] dark:bg-[#d9d9d9] h-1 rounded-2xl" />
+                      <div className="w-5 bg-[#284b63] dark:bg-[#d9d9d9] h-1 rounded-2xl" />
                     </div>
                     <p className="text-gray-500 dark:text-gray-300">
                       I would like to share the tools I frequently use in
@@ -297,13 +297,13 @@ function App() {
                   <div className="flex flex-col justify-center items-center max-w-2xl text-center">
                     {" "}
                     {/* Batasi lebar teks */}
-                    <p className="text-lg font-medium text-blue-500">
+                    <p className="text-lg font-medium text-[#284b63] dark:text-gray-300">
                       Creative Portfolios
                     </p>
-                    <h1 className="text-4xl font-bold mt-2 mb-4 text-black">
+                    <h1 className="text-4xl font-bold mt-2 mb-4 text-black dark:text-white">
                       Recent Works
                     </h1>
-                    <p className="text-gray-500 font-medium px-4">
+                    <p className="text-[#353535] font-medium px-4">
                       There are many variations of passages of Lorem Ipsum
                       available but the majority have suffered alteration in
                       some form.
@@ -320,8 +320,8 @@ function App() {
                       className={`px-5 py-2 font-medium rounded-lg transition duration-200 
                 ${
                   activeCategory === category
-                    ? "bg-blue-600 text-white shadow-md" // Active state
-                    : "border border-blue-500 text-blue-500 hover:bg-blue-50" // Inactive state
+                    ? "bg-[#284b63] text-white shadow-md" // Active state
+                    : "border border-[#284b63] text-[#284b63] hover:bg-[#3b6f92]" // Inactive state
                 }`}
                     >
                       {category}
@@ -333,7 +333,7 @@ function App() {
                   {filteredPortfolio.slice(0, itemsToShow).map((item) => (
                     <div
                       key={item.id}
-                      className="bg-white dark:bg-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden group"
+                      className="bg-white dark:bg-[#284b63] rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden group"
                     >
                       <figure className="overflow-hidden">
                         <img
@@ -354,7 +354,7 @@ function App() {
                         <div className="flex justify-end">
                           <a
                             href={item.liveUrl}
-                            className="inline-block px-4 py-1.5 bg-blue-100 text-blue-600 text-sm font-semibold rounded-full hover:bg-blue-200 transition duration-200"
+                            className="inline-block px-4 py-1.5 bg-[#3c6e71] text-[#1a3738] text-sm font-semibold rounded-full hover:bg-blue-200 transition duration-200"
                           >
                             View Project
                           </a>
