@@ -354,7 +354,7 @@ function App() {
                         <div className="flex justify-end">
                           <a
                             href={item.liveUrl}
-                            className="inline-block px-4 py-1.5 bg-[#284b63] text-[#122a3a] text-sm font-semibold rounded-full hover:bg-blue-200 transition duration-200"
+                            className="inline-block px-4 py-1.5 bg-[#3c6e71] text-[#224142] text-sm font-semibold rounded-full hover:bg-blue-200 transition duration-200"
                           >
                             View Project
                           </a>
