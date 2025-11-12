@@ -38,12 +38,11 @@ export default function PortfolioDetailPage() {
             {project.title}
           </h1>
         </div>
-
         <div className="mb-12 rounded-xl overflow-hidden shadow-2xl dark:shadow-gray-900/70">
           <img
             src={project.imageUrl}
             alt={project.title}
-            className="block max-w-lg h-auto object-cover mx-auto"
+            className="w-full md:max-w-lg h-auto object-cover mx-auto "
           />
         </div>
 
