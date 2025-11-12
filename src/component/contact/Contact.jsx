@@ -1,4 +1,4 @@
-
+import React from 'react';
 
 export default function Contact() {
     // GANTI URL INI DENGAN ENDPOINT UNIK FORMSPREE ANDA

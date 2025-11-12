@@ -11,7 +11,7 @@ import Portofio from '../../component/portofolio/Portofio'
 
 export default function HomePage() {
   return (
-      <div className="bg-[#FBFBFB] -z-99 dark:bg-[#353535] text-gray-900 dark:text-gray-100 min-h-screen">
+      <div className="bg-[#d9d9d9] -z-99 dark:bg-[#353535] text-gray-900 dark:text-gray-100 min-h-screen">
         <Layout>
         <section>
             <Header />

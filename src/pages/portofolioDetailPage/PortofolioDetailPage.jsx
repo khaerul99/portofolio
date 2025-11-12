@@ -1,3 +1,4 @@
+import React from "react";
 import { FaGlobe, FaCode } from "react-icons/fa"; // Untuk ikon
 import { portfolioData } from "../../data/portofolioData.js";
 import { useParams } from "react-router-dom";
