@@ -5,7 +5,7 @@ export default function Contact() {
     const FORMSPREE_ENDPOINT = "https://formspree.io/f/xblqreap"; 
 
     return (
-        <section id="contact" className="py-20 bg-white dark:bg-[#353535] scroll-mt-20">
+        <section id="contact" className="py-20 flex justify-center items-center bg-gray-100 dark:bg-gray-800 w-screen relative left-1/2 -translate-x-1/2 scroll-mt-20 ">
             <div className="max-w-4xl mx-auto px-4">
                 
                 {/* HEADER */}
@@ -32,13 +32,13 @@ export default function Contact() {
                             name="name" 
                             placeholder="Enter your name" 
                             required 
-                            className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-gray-100 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white"
+                            className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-[] dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white"
                         />
                         <input 
                             type="text" 
                             name="company" 
                             placeholder="Company (Optional)" 
-                            className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-gray-100 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white"
+                            className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-[] dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white"
                         />
                     </div>
 
@@ -49,13 +49,13 @@ export default function Contact() {
                             name="email" 
                             placeholder="Enter your email" 
                             required 
-                            className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-gray-100 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white"
+                            className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-[] dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white"
                         />
                         <input 
                             type="tel" 
                             name="phone" 
                             placeholder="Phone number" 
-                            className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-gray-100 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white"
+                            className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-[] dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white"
                         />
                     </div>
 
@@ -66,7 +66,7 @@ export default function Contact() {
                             placeholder="Tell me about your project" 
                             rows="6" 
                             required 
-                            className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-gray-100 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white resize-none"
+                            className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-[] dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white resize-none"
                         ></textarea>
                     </div>
 

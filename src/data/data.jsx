@@ -46,7 +46,7 @@ export const services = [
   },
 ];
 
-export const skills = [
+export const ToolsItem = [
   {
     id: 1,
     icon: <FaHtml5 size={50} color="" className="text-gray-500 group-hover:text-[#E34F26] transition-all duration-200" />,
@@ -96,36 +96,37 @@ export const skills = [
 // src/data/TimelineData.js
 
 export const ResumeData = [
-    {
+  {
         id: 1,
-        title: "UI/UX Designer",
-        company: "Google INC",
-        location: "New York",
-        period: "2011 - 2013",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        type: "experience", 
+        title: "TiM IT",
+        company: "MI Nurul Huda",
+        location: "Bandung",
+        period: "2020 - 2021",
+        description: "Managing and maintaining the school's IT infrastructure, including computer systems, networks, and software applications. Providing technical support to staff and students, ensuring smooth operation of all IT-related activities within the school environment.",
+        type: "experience",
         alignment: "left"
     },
     {
         id: 2,
-        title: "Specialization Course",
-        company: "Stanford University",
-        location: "New York",
-        period: "2017 - 2018",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        type: "education",
+        title: "frontend developer",
+        company: "Digital Inovation",
+        location: "Bandung",
+        period: "2022 - 2023",
+        description: "I possess expertise in developing responsive and user-friendly user interfaces (UI) for various digital platforms, including creating the UI for an online Quran learning and testing web application. Furthermore, I have experience in building a company profile website for a Vocational High School (SMK) in Bandung, focusing on easy navigation and engaging information presentation. I am also skilled in designing a landing page website for a Telkom University event with the strategic goal of increasing participant registrations, and developing a company profile website for a tracking company, where the main emphasis is on transparent visualization of fund usage and service information.",
+        type: "experience", 
         alignment: "right"
     },
     {
         id: 3,
-        title: "Web Designer",
-        company: "Facebook INC",
-        location: "New York",
-        period: "2014 - 2016",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        title: "design grafis",
+        company: "OTWSAH Invitation",
+        location: "bandung",
+        period: "2023 - 2024",
+        description: "Creating attractive and elegant wedding invitation designs using Adobe Photoshop and Canva applications. Responsible for designing various styles of wedding invitations according to client preferences, ensuring high-quality visual aesthetics, and delivering the final designs in a timely manner.",
         type: "experience",
         alignment: "left"
     },
+    
    
    
 ];

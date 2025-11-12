@@ -4,15 +4,16 @@ import RuntimeItem from './RuntimeItem'
 
 export default function Runtime() {
     return (
-      <div className="max-w-4xl mx-auto py-10 px-4">
+        <section>
+      <div className="max-w-4xl mx-auto py-20 px-4">
             <header className="text-center mb-10">
-                <p className="text-gray-300 font-medium tracking-wider uppercase text-sm">
+                <p className="text-[#284b63] dark:text-gray-300 font-medium tracking-wider uppercase text-sm">
                     Education & Experience
                 </p>
                 <h1 className="text-5xl font-bold text-black dark:text-gray-300 mt-1 mb-4">
                     My Resume
                 </h1>
-                <p className="text-gray-300 max-w-lg mx-auto">
+                <p className="text-[#284b63] dark:text-gray-300 max-w-lg mx-auto">
                     There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.
                 </p>
             </header>
@@ -31,5 +32,6 @@ export default function Runtime() {
                 ))}
             </div>
         </div>
+        </section>
     )
 }
