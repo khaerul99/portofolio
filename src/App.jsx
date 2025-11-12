@@ -10,6 +10,8 @@ import { portfolioData, categories } from "./data/portofolioData";
 import { useEffect, useState } from "react";
 import Runtime from "./component/runtime/Runtime";
 import Contact from "./component/contact/Contact";
+import Footer from "./component/footer/Footer";
+
 
 const INITIAL_LIMIT = 3;
 const LOAD_MORE_AMOUNT = 3;
@@ -386,13 +388,17 @@ function App() {
             </section>
 
             <section className="relative min-h-screen scroll-mt-20 ">
-              <div className="animate-orb-slow absolute  h-[800px] w-[800px] bg-blue-400 -right-[600px] top-80 rounded-full blur-2xl opacity-20" />
-              <div className="absolute  h-[800px] w-[800px] bg-pink-400 -left-[300px] top-40 rounded-full blur-2xl opacity-10" />
+              <div className="animate-orb-slow absolute  h-[800px] w-[800px] bg-[#284b63] -right-[600px] top-80 rounded-full blur-2xl opacity-20" />
+              <div className="absolute  h-[800px] w-[800px] bg-[#3c6e71] -left-[300px] top-40 rounded-full blur-2xl opacity-10" />
               <Runtime />
             </section>
 
             <section>
               <Contact />
+            </section>
+
+            <section>
+              <Footer />
             </section>
           </main>
         </Layout>
