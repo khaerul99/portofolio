@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { ResumeData } from '../../data/data'
 import RuntimeItem from './RuntimeItem'
 

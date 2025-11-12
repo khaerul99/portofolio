@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 const INITIAL_LIMIT = 6;
 const LOAD_MORE_AMOUNT = 3;
 import { portfolioData, categories } from "../../data/portofolioData";

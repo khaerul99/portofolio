@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaLinkedin, FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
 
 export default function Footer() {
@@ -37,11 +37,11 @@ export default function Footer() {
                     <div>
                         <h3 className="text-xl font-bold mb-4 text-gray-800 dark:text-white">Quick Links</h3>
                         <ul className="space-y-3">
-                            <li><a href="#home" className="text-gray-600 dark:text-gray-300 hover:text-[#284b63] transition duration-200">Home</a></li>
-                            <li><a href="#about" className="text-gray-600 dark:text-gray-300 hover:text-[#284b63] transition duration-200">About Me</a></li>
-                            <li><a href="#services" className="text-gray-600 dark:text-gray-300 hover:text-[#284b63] transition duration-200">Services</a></li>
-                            <li><a href="#portfolio" className="text-gray-600 dark:text-gray-300 hover:text-[#284b63] transition duration-200">Portfolio</a></li>
-                            <li><a href="#contact" className="text-gray-600 dark:text-gray-300 hover:text-[#284b63] transition duration-200">Contact</a></li>
+                            <li><a href="#home" className="text-gray-600 dark:text-gray-00 hover:text-[#284b63] transition duration-200">Home</a></li>
+                            <li><a href="#about" className="text-gray-600 dark:text-gray-00 hover:text-[#284b63] transition duration-200">About Me</a></li>
+                            <li><a href="#services" className="text-gray-600 dark:text-gray-00 hover:text-[#284b63] transition duration-200">Services</a></li>
+                            <li><a href="#portfolio" className="text-gray-600 dark:text-gray-00 hover:text-[#284b63] transition duration-200">Portfolio</a></li>
+                            <li><a href="#contact" className="text-gray-600 dark:text-gray-00 hover:text-[#284b63] transition duration-200">Contact</a></li>
                         </ul>
                     </div>
 
