@@ -42,7 +42,7 @@ export const portfolioData = [
   {
     id: 4,
     title: "design footboall event",
-    category: "design",
+    category: "Design",
     role: "Design foto",
     duration: "2 hari",
     tools: ["Adobe Photoshop", "Canva"],
