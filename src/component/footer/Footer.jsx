@@ -18,7 +18,7 @@ export default function Footer() {
                         
                         {/* Social Media Links */}
                         <div className="flex space-x-4 mt-6">
-                            <a href="https://wa.me/6289530185171" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-green-500 transition duration-200 dark:text-gray-400 dark:hover:text-green-400">
+                            <a href="https://wa.me/6289530185171" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-green-500 transition duration-200 dark:text-gray-300 dark:hover:text-green-400">
                                 <FaWhatsapp className="w-6 h-6" />
                             </a>
                             <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-700 transition duration-200 dark:text-gray-300 dark:hover:text-blue-500">
@@ -37,11 +37,11 @@ export default function Footer() {
                     <div>
                         <h3 className="text-xl font-bold mb-4 text-gray-800 dark:text-white">Quick Links</h3>
                         <ul className="space-y-3">
-                            <li><a href="#home" className="text-gray-600 dark:text-gray-400 hover:text-[#284b63] transition duration-200">Home</a></li>
-                            <li><a href="#about" className="text-gray-600 dark:text-gray-400 hover:text-[#284b63] transition duration-200">About Me</a></li>
-                            <li><a href="#services" className="text-gray-600 dark:text-gray-400 hover:text-[#284b63] transition duration-200">Services</a></li>
-                            <li><a href="#portfolio" className="text-gray-600 dark:text-gray-400 hover:text-[#284b63] transition duration-200">Portfolio</a></li>
-                            <li><a href="#contact" className="text-gray-600 dark:text-gray-400 hover:text-[#284b63] transition duration-200">Contact</a></li>
+                            <li><a href="#home" className="text-gray-600 dark:text-gray-300 hover:text-[#284b63] transition duration-200">Home</a></li>
+                            <li><a href="#about" className="text-gray-600 dark:text-gray-300 hover:text-[#284b63] transition duration-200">About Me</a></li>
+                            <li><a href="#services" className="text-gray-600 dark:text-gray-300 hover:text-[#284b63] transition duration-200">Services</a></li>
+                            <li><a href="#portfolio" className="text-gray-600 dark:text-gray-300 hover:text-[#284b63] transition duration-200">Portfolio</a></li>
+                            <li><a href="#contact" className="text-gray-600 dark:text-gray-300 hover:text-[#284b63] transition duration-200">Contact</a></li>
                         </ul>
                     </div>
 
