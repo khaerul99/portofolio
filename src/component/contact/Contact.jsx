@@ -5,7 +5,7 @@ export default function Contact() {
     const FORMSPREE_ENDPOINT = "https://formspree.io/f/xblqreap"; 
 
     return (
-        <section id="contact" className="py-20 bg-white dark:[#353535] scroll-mt-20">
+        <section id="contact" className="py-20 bg-white dark:bg-[#353535] scroll-mt-20">
             <div className="max-w-4xl mx-auto px-4">
                 
                 {/* HEADER */}
