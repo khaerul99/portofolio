@@ -13,32 +13,19 @@ export const services = [
   },
   {
     id: 2,
-    title: "UI/UX Design",
-    description:
-      "Designing user-friendly interfaces and enhancing user experience.",
-    icon: "🎨",
-  },
-  {
-    id: 3,
-    title: "Mobile App Development",
-    description: "Creating mobile applications for Android and iOS platforms.",
-    icon: "📱",
-  },
-  {
-    id: 4,
     title: "Design Graphic",
     description: "Creating visual content to communicate messages effectively.",
     icon: "📱",
   },
   {
-    id: 5,
+    id: 3,
     title: "Edit Foto & Video",
     description:
       "Enhancing and manipulating images and videos for various purposes.",
     icon: "📱",
   },
   {
-    id: 6,
+    id: 4,
     title: "sosial media management",
     description:
       "Managing and optimizing social media platforms to increase engagement.",

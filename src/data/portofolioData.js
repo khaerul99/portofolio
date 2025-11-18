@@ -22,9 +22,9 @@ export const portfolioData = [
     role: "Frontend Developer",
     duration: "2 hari",
     tools: ["React", "Tailwind CSS", "Vite", "Formspree"],
-    repoUrl: "https://github.com/your-repo/alkaf-store",
+    repoUrl: "https://github.com/khaerul99/student-leader-summit.git",
     imageUrl: "/assets/porto/image2.png",
-    liveUrl: "#",
+    liveUrl: "https://student-leader-summit.netlify.app/",
     description:["A landing page design for an event, focusing on user engagement and conversion."],
   },
   {
@@ -46,9 +46,9 @@ export const portfolioData = [
     role: "Frontend Developer",
     duration: "2 hari",
     tools: ["React", "Tailwind CSS", "Vite"],
-    repoUrl: "-",
+    repoUrl: "https://github.com/khaerul99/west-java.git",
     imageUrl: "/assets/porto/image3.png",
-    liveUrl: "#",
+    liveUrl: "https://event-west-java.netlify.app/",
     description:[ "A landing page design for WJSLS event, focusing on user engagement and conversion."],
   },
   {
