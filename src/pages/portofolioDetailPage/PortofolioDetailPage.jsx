@@ -88,6 +88,7 @@ export default function PortfolioDetailPage() {
               <img
                 src={project.imageUrl}
                 alt={project.title}
+                loading="lazy"
                 className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
@@ -223,6 +224,7 @@ export default function PortfolioDetailPage() {
             <img 
               src={project.imageUrl} 
               alt={project.title}
+              loading="lazy"
               className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl ring-1 ring-white/10"
               onClick={(e) => e.stopPropagation()}
             />
