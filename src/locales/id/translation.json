@@ -105,6 +105,12 @@
       "desc": [
         "Rekber (Rekening Bersama) adalah platform e-commerce yang dirancang untuk memfasilitasi transaksi jual beli online dengan tingkat keamanan yang lebih tinggi. Platform ini berfungsi sebagai perantara terpercaya antara penjual dan pembeli, memastikan bahwa dana transaksi disimpan dengan aman hingga barang atau jasa yang dibeli telah diterima dan disetujui oleh pembeli. Fitur utama Rekber meliputi verifikasi identitas pengguna, sistem escrow untuk penahanan dana, serta mekanisme penyelesaian sengketa yang transparan. Dengan mengadopsi teknologi blockchain untuk transparansi dan keamanan data, Rekber menawarkan solusi efisien bagi para pelaku ekonomi digital yang menginginkan rasa aman dan kepastian dalam setiap transaksi online."
       ]
+    },
+    "8": {
+      "title": "Aplikasi HPP",
+      "desc": [
+        "Aplikasi HPP adalah sebuah platform yang dirancang untuk membantu pelaku usaha kecil dan menengah (UKM) menghitung harga pokok penjualan (HPP) produk mereka. Aplikasi ini menyediakan fitur-fitur seperti input biaya bahan baku, biaya tenaga kerja, biaya overhead, serta perhitungan HPP otomatis."
+      ]
     }
   },
   "portfolioDetail": {

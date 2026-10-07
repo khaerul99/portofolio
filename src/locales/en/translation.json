@@ -105,6 +105,12 @@
       "desc": [
         "Rekber (Joint Account) is an e-commerce platform designed to facilitate online transactions with a higher level of security. It acts as a trusted intermediary between buyers and sellers, ensuring that transaction funds are securely held until the purchased goods or services have been received and approved by the buyer. Key features of Rekber include user identity verification, an escrow system for holding funds, and a transparent dispute resolution mechanism. By adopting blockchain technology for transparency and data security, Rekber offers an efficient solution for digital economy participants seeking peace of mind and certainty in every online transaction."
       ]
+    },
+    "8": {
+      "title": "HPP Application",
+      "desc": [
+        "The HPP Application is a platform designed to help small and medium enterprises (SMEs) calculate the Cost of Goods Sold (COGS) for their products. This application provides features such as input for raw material costs, labor costs, overhead costs, and automatic COGS calculation."
+      ]
     }
   },
   "portfolioDetail": {
