@@ -113,6 +113,16 @@ export const ResumeData = [
         type: "experience",
         alignment: "left"
     },
+    {
+        id: 4,
+        title: "Front-end Developer",
+        company: "PT. Inovasi Tjaraka Buana",
+        location: "Bandung",
+        period: "2026 - 2026",
+        description: "My primary responsibility was developing a responsive web dashboard for real-time CCTV monitoring using React.js and Tailwind CSS. In this role, I integrated the Dahua REST API to manage live stream data, playback, and device status, while ensuring optimal interface load times. To enhance efficiency, I utilized AI tools to accelerate the creation of visual components, code logic implementation, and technical troubleshooting. Beyond technical tasks, I actively collaborated with the DevOps team and field technicians to ensure seamless data synchronization between the API and the hardware.",
+        type: "experience",
+        alignment: "right"
+    },
     
    
    

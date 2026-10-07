@@ -1,0 +1,167 @@
+{
+  "header": {
+    "welcome": "Selamat datang di portofolio saya",
+    "greeting": "Halo, saya",
+    "role": "Seorang <1>Frontend Developer</1> Profesional",
+    "description": "Saya merancang aplikasi web yang responsif, terukur, dan memukau secara visual menggunakan React, Tailwind CSS, dan teknologi web modern lainnya. Mari wujudkan ide Anda menjadi realitas digital yang fungsional.",
+    "contactBtn": "Hubungi Saya",
+    "learnMoreBtn": "Pelajari Lanjut",
+    "badgeRole": "Pengembang Web",
+    "badgeDesc": "Antusias"
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "services": "Layanan",
+    "portfolio": "Portofolio",
+    "contact": "Kontak",
+    "downloadCv": "Unduh CV"
+  },
+  "services": {
+    "badge": "Layanan",
+    "title": "Apa yang Saya <1>Tawarkan</1>",
+    "items": {
+      "webDev": {
+        "title": "Pengembangan Web",
+        "desc": "Membangun situs web yang responsif dan dinamis menggunakan teknologi modern."
+      },
+      "design": {
+        "title": "Desain Grafis",
+        "desc": "Menciptakan konten visual untuk menyampaikan pesan secara efektif."
+      },
+      "video": {
+        "title": "Edit Foto & Video",
+        "desc": "Menyempurnakan dan memanipulasi gambar serta video untuk berbagai keperluan."
+      },
+      "social": {
+        "title": "Manajemen Media Sosial",
+        "desc": "Mengelola dan mengoptimalkan platform media sosial untuk meningkatkan interaksi."
+      }
+    }
+  },
+  "about": {
+    "badge": "KENALI SAYA",
+    "title": "Tentang <1>Saya</1>",
+    "desc1": "Halo! Saya <1>Muhamad Khaerul Rijal</1>, seorang Frontend Developer yang penuh semangat dengan bakat dalam menciptakan aplikasi web yang menarik dan ramah pengguna.",
+    "desc2": "Dengan fondasi yang kuat di HTML, CSS, dan JavaScript, saya berspesialisasi dalam membangun situs web yang responsif dan menarik secara visual menggunakan framework modern seperti <1>React</1> dan <1>Tailwind CSS</1>.",
+    "projectBtn": "Proyek Saya",
+    "downloadBtn": "Unduh CV"
+  },
+  "tools": {
+    "badge": "TEKNOLOGI SAYA",
+    "title": "Alat <1>Pengguna</1>",
+    "desc": "Saya ingin membagikan beberapa alat yang sering saya gunakan dalam membuat situs web. Alat-alat ini membantu saya membangun aplikasi web yang efisien, terukur, dan responsif."
+  },
+  "portfolio": {
+    "badge": "PORTOFOLIO",
+    "title": "Karya <1>Terbaru</1>",
+    "desc": "Jelajahi proyek-proyek terbaru saya di mana saya mengubah masalah kompleks menjadi solusi digital yang elegan, intuitif, dan sangat fungsional.",
+    "filterAll": "Semua",
+    "filterWeb": "Web",
+    "filterDesign": "Desain",
+    "viewDetails": "Lihat Detail"
+  },
+  "portfolioItems": {
+    "1": {
+      "title": "Website Profil Perusahaan Alkaf Store",
+      "desc": [
+        "Proyek ini berfokus pada pembuatan website profil perusahaan yang responsif dan cepat untuk meningkatkan citra brand Alkaf Store di pasar digital.",
+        "Saya bertanggung jawab penuh atas konversi desain Figma menjadi kode React yang fungsional, optimasi kinerja halaman (Core Web Vitals), dan implementasi fitur kontak langsung.",
+        "Hasilnya adalah peningkatan 40% dalam engagement pengguna di halaman utama dan penurunan bounce rate sebesar 15%."
+      ]
+    },
+    "2": {
+      "title": "Landing Page Event",
+      "desc": [
+        "Desain landing page untuk sebuah acara, berfokus pada keterlibatan dan konversi pengguna."
+      ]
+    },
+    "3": {
+      "title": "Desain Promosi Event Sepak Bola",
+      "desc": [
+        "Desain grafis untuk promosi personal event sepak bola."
+      ]
+    },
+    "4": {
+      "title": "Landing Page Event WJSLS",
+      "desc": [
+        "Desain landing page untuk acara WJSLS, berfokus pada keterlibatan dan konversi pengguna."
+      ]
+    },
+    "5": {
+      "title": "Company Profile Madu",
+      "desc": [
+        "Sebagai Fullstack developer pada porject ini, tanggung jawab utama saya adalah mengembangkan dan memelihara platform website company profile yang modern serta user-friendly menggunakan teknologi Laravel 12 dan Tailwind CSS. Dalam peran ini, saya bertanggung jawab penuh atas siklus pengembangan produk, mulai dari perencanaan arsitektur sistem, implementasi desain UI/UX yang responsif, integrasi database MySQL untuk manajemen konten, hingga deployment dan pemantauan kinerja aplikasi. Salah satu pencapaian utama saya adalah berhasil mendesain dashboard admin menggunakan Filament, yang memungkinkan tim internal untuk mengelola konten, galeri foto, dan data portofolio dengan efisien tanpa memerlukan pengetahuan teknis pemrograman. Selain itu, saya juga bertanggung jawab atas optimalisasi kecepatan loading website, memastikan pengalaman pengguna yang mulus, serta berkolaborasi dengan tim desain untuk memastikan visual brand image perusahaan tetap konsisten dan profesional di platform digital."
+      ]
+    },
+    "6": {
+      "title": "Web Monitoring CCTV",
+      "desc": [
+        "Sebagai Frontend developer di PT. Inovasi Tjaraka Buana pada periode April 2026 hingga Agustus 2026, tanggung jawab utama saya adalah mengembangkan dashboard web responsif untuk keperluan pemantauan CCTV secara real-time dengan menggunakan React.js dan Tailwind CSS. Dalam peran ini, saya bertugas mengintegrasikan REST API Dahua guna mengelola data live stream, pemutaran ulang, dan status perangkat, sekaligus memastikan load time antarmuka berjalan secara optimal. Untuk meningkatkan efisiensi kerja, saya juga memanfaatkan perangkat AI guna mengakselerasi pembuatan komponen visual, penulisan logika kode, serta penyelesaian berbagai masalah teknis. Selain aspek teknis, saya berkolaborasi aktif dengan tim DevOps dan teknisi lapangan guna memastikan bahwa sinkronisasi data API dengan perangkat keras dapat berjalan lancar tanpa hambatan."
+      ]
+    },
+    "7": {
+      "title": "Web REKBER",
+      "desc": [
+        "Rekber (Rekening Bersama) adalah platform e-commerce yang dirancang untuk memfasilitasi transaksi jual beli online dengan tingkat keamanan yang lebih tinggi. Platform ini berfungsi sebagai perantara terpercaya antara penjual dan pembeli, memastikan bahwa dana transaksi disimpan dengan aman hingga barang atau jasa yang dibeli telah diterima dan disetujui oleh pembeli. Fitur utama Rekber meliputi verifikasi identitas pengguna, sistem escrow untuk penahanan dana, serta mekanisme penyelesaian sengketa yang transparan. Dengan mengadopsi teknologi blockchain untuk transparansi dan keamanan data, Rekber menawarkan solusi efisien bagi para pelaku ekonomi digital yang menginginkan rasa aman dan kepastian dalam setiap transaksi online."
+      ]
+    }
+  },
+  "portfolioDetail": {
+    "notFound": "Proyek Tidak Ditemukan",
+    "notFoundDesc": "Proyek yang Anda cari tidak ada atau telah dihapus.",
+    "backHome": "Kembali ke Beranda",
+    "backPortfolio": "Kembali ke Portofolio",
+    "overview": "Gambaran Proyek",
+    "features": "Fitur Utama",
+    "featuresDesc": "(Detail proyek tambahan, mockup, atau sorotan fitur dapat ditampilkan di sini.)",
+    "details": "Detail Proyek",
+    "role": "Peran",
+    "duration": "Durasi",
+    "tech": "Teknologi",
+    "visit": "Kunjungi Situs",
+    "repo": "Lihat Repositori"
+  },
+  "resume": {
+    "badge": "Pendidikan & Pengalaman",
+    "title": "<1>Resume</1> Saya",
+    "desc": "Garis waktu singkat dari latar belakang akademis dan perjalanan profesional saya, menampilkan pengalaman yang membentuk karier saya."
+  },
+  "resumeItems": {
+    "1": {
+      "title": "Tim IT",
+      "company": "MI Nurul Huda",
+      "location": "Bandung",
+      "desc": "Mengelola dan memelihara infrastruktur TI sekolah, termasuk sistem komputer, jaringan, dan aplikasi perangkat lunak. Memberikan dukungan teknis kepada staf dan siswa, memastikan kelancaran seluruh kegiatan yang berkaitan dengan TI di lingkungan sekolah."
+    },
+    "2": {
+      "title": "Frontend Developer",
+      "company": "Digital Inovation",
+      "location": "Bandung",
+      "desc": "Saya memiliki keahlian dalam mengembangkan antarmuka pengguna (UI) yang responsif dan ramah pengguna untuk berbagai platform digital, termasuk pembuatan UI untuk aplikasi web pembelajaran dan pengujian Al-Quran online. Selain itu, saya berpengalaman dalam membangun website profil perusahaan untuk sebuah Sekolah Menengah Kejuruan (SMK) di Bandung, dengan fokus pada navigasi yang mudah dan penyajian informasi yang menarik. Saya juga mahir dalam merancang website landing page untuk acara Telkom University dengan tujuan strategis meningkatkan pendaftaran peserta, serta mengembangkan website profil perusahaan untuk sebuah perusahaan pelacakan (tracking), di mana penekanan utamanya adalah pada visualisasi transparan penggunaan dana dan informasi layanan."
+    },
+    "3": {
+      "title": "Desain Grafis",
+      "company": "OTWSAH Invitation",
+      "location": "Bandung",
+      "desc": "Membuat desain undangan pernikahan yang menarik dan elegan menggunakan aplikasi Adobe Photoshop dan Canva. Bertanggung jawab dalam merancang berbagai gaya undangan pernikahan sesuai dengan preferensi klien, memastikan estetika visual berkualitas tinggi, dan menyelesaikan desain akhir tepat waktu."
+    },
+    "4": {
+      "title": "Front-end Developer",
+      "company": "PT. Inovasi Tjaraka Buana",
+      "location": "Bandung",
+      "desc": "Tanggung jawab utama saya adalah mengembangkan dashboard web yang responsif untuk pemantauan CCTV secara real-time menggunakan React.js dan Tailwind CSS. Dalam peran ini, saya mengintegrasikan Dahua REST API untuk mengelola data live stream, pemutaran ulang, dan status perangkat, sekaligus memastikan waktu muat antarmuka yang optimal. Untuk meningkatkan efisiensi, saya menggunakan perangkat AI guna mempercepat pembuatan komponen visual, implementasi logika kode, dan penyelesaian masalah teknis. Selain tugas teknis, saya berkolaborasi secara aktif dengan tim DevOps dan teknisi lapangan untuk memastikan sinkronisasi data yang mulus antara API dan perangkat keras."
+    }
+  },
+  "contact": {
+    "badge": "Hubungi Saya",
+    "title": "Punya Ide Proyek?",
+    "desc": "Mari wujudkan visi Anda menjadi kenyataan. Hubungi saya dan mari kita bangun sesuatu yang luar biasa bersama.",
+    "namePlaceholder": "Masukkan nama Anda",
+    "companyPlaceholder": "Perusahaan (Opsional)",
+    "emailPlaceholder": "Masukkan email Anda",
+    "phonePlaceholder": "Nomor telepon",
+    "msgPlaceholder": "Ceritakan tentang proyek Anda",
+    "submitBtn": "Kirim Pesan"
+  }
+}

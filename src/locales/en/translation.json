@@ -1,0 +1,167 @@
+{
+  "header": {
+    "welcome": "Welcome to my portfolio",
+    "greeting": "Hi, I'm",
+    "role": "Professional <1>Frontend Developer</1>",
+    "description": "I craft responsive, scalable, and visually stunning web applications using React, Tailwind CSS, and modern web technologies. Let's turn your ideas into functional digital realities.",
+    "contactBtn": "Contact Me",
+    "learnMoreBtn": "Learn More",
+    "badgeRole": "Web Dev",
+    "badgeDesc": "Enthusiast"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "downloadCv": "Download CV"
+  },
+  "services": {
+    "badge": "Services",
+    "title": "What I <1>Provide</1>",
+    "items": {
+      "webDev": {
+        "title": "Web Development",
+        "desc": "Building responsive and dynamic websites using modern technologies."
+      },
+      "design": {
+        "title": "Graphic Design",
+        "desc": "Creating visual content to communicate messages effectively."
+      },
+      "video": {
+        "title": "Photo & Video Editing",
+        "desc": "Enhancing and manipulating images and videos for various purposes."
+      },
+      "social": {
+        "title": "Social Media Management",
+        "desc": "Managing and optimizing social media platforms to increase engagement."
+      }
+    }
+  },
+  "about": {
+    "badge": "GET TO KNOW ME",
+    "title": "About <1>Me</1>",
+    "desc1": "Hello! I'm <1>Muhamad Khaerul Rijal</1>, a passionate Frontend Developer with a knack for creating engaging and user-friendly web applications.",
+    "desc2": "With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive and visually appealing websites using modern frameworks like <1>React</1> and <1>Tailwind CSS</1>.",
+    "projectBtn": "My Project",
+    "downloadBtn": "Download CV"
+  },
+  "tools": {
+    "badge": "MY STACK",
+    "title": "User <1>Tools</1>",
+    "desc": "I would like to share the tools I frequently use in creating websites. These tools help me build efficient, scalable, and responsive web applications."
+  },
+  "portfolio": {
+    "badge": "PORTFOLIO",
+    "title": "Recent <1>Works</1>",
+    "desc": "Explore my latest projects where I turn complex problems into elegant, intuitive, and highly functional digital solutions.",
+    "filterAll": "All",
+    "filterWeb": "Web",
+    "filterDesign": "Design",
+    "viewDetails": "View Details"
+  },
+  "portfolioItems": {
+    "1": {
+      "title": "Company profile website Alkaf Store",
+      "desc": [
+        "This project focuses on creating a responsive and fast company profile website to enhance the brand image of Alkaf Store in the digital market.",
+        "I was fully responsible for converting Figma designs into functional React code, optimizing page performance (Core Web Vitals), and implementing direct contact features.",
+        "The result is a 40% increase in user engagement on the homepage and a 15% decrease in bounce rate."
+      ]
+    },
+    "2": {
+      "title": "Landing Page event",
+      "desc": [
+        "A landing page design for an event, focusing on user engagement and conversion."
+      ]
+    },
+    "3": {
+      "title": "Design football event",
+      "desc": [
+        "Graphic design for a football personal event promotion."
+      ]
+    },
+    "4": {
+      "title": "Landing page event WJSLS",
+      "desc": [
+        "A landing page design for WJSLS event, focusing on user engagement and conversion."
+      ]
+    },
+    "5": {
+      "title": "Company Profile Honey",
+      "desc": [
+        "As a Fullstack Developer for this project, my main responsibility was to develop and maintain a modern and user-friendly company profile website platform using Laravel 12 and Tailwind CSS. In this role, I took full responsibility for the product development cycle, from system architecture planning and responsive UI/UX design implementation, to MySQL database integration for content management, deployment, and application performance monitoring. One of my key achievements was successfully designing an admin dashboard using Filament, allowing the internal team to efficiently manage content, photo galleries, and portfolio data without requiring technical programming knowledge. Additionally, I was responsible for optimizing the website's loading speed, ensuring a seamless user experience, and collaborating with the design team to maintain a consistent and professional brand image across the digital platform."
+      ]
+    },
+    "6": {
+      "title": "Web Monitoring CCTV",
+      "desc": [
+        "As a Frontend Developer at PT. Inovasi Tjaraka Buana from April 2026 to August 2026, my main responsibility was to develop a responsive web dashboard for real-time CCTV monitoring using React.js and Tailwind CSS. In this role, I integrated Dahua REST APIs to manage live stream data, playback, and device status, while ensuring optimal interface load times. To improve efficiency, I also leveraged AI tools to accelerate the creation of visual components, logic implementation, and troubleshooting of technical issues. Aside from technical aspects, I actively collaborated with the DevOps team and field technicians to ensure smooth synchronization of API data with hardware components."
+      ]
+    },
+    "7": {
+      "title": "Web REKBER",
+      "desc": [
+        "Rekber (Joint Account) is an e-commerce platform designed to facilitate online transactions with a higher level of security. It acts as a trusted intermediary between buyers and sellers, ensuring that transaction funds are securely held until the purchased goods or services have been received and approved by the buyer. Key features of Rekber include user identity verification, an escrow system for holding funds, and a transparent dispute resolution mechanism. By adopting blockchain technology for transparency and data security, Rekber offers an efficient solution for digital economy participants seeking peace of mind and certainty in every online transaction."
+      ]
+    }
+  },
+  "portfolioDetail": {
+    "notFound": "Project Not Found",
+    "notFoundDesc": "The project you are looking for does not exist or has been removed.",
+    "backHome": "Back to Home",
+    "backPortfolio": "Back to Portfolio",
+    "overview": "Project Overview",
+    "features": "Key Features",
+    "featuresDesc": "(Additional project details, mockups, or feature highlights can be displayed here.)",
+    "details": "Project Details",
+    "role": "Role",
+    "duration": "Duration",
+    "tech": "Technologies",
+    "visit": "Visit Live Site",
+    "repo": "View Repository"
+  },
+  "resume": {
+    "badge": "Education & Experience",
+    "title": "My <1>Resume</1>",
+    "desc": "A brief timeline of my academic background and professional journey, showcasing the experiences that shaped my career."
+  },
+  "resumeItems": {
+    "1": {
+      "title": "IT Team",
+      "company": "MI Nurul Huda",
+      "location": "Bandung",
+      "desc": "Managing and maintaining the school's IT infrastructure, including computer systems, networks, and software applications. Providing technical support to staff and students, ensuring smooth operation of all IT-related activities within the school environment."
+    },
+    "2": {
+      "title": "Frontend Developer",
+      "company": "Digital Inovation",
+      "location": "Bandung",
+      "desc": "I possess expertise in developing responsive and user-friendly user interfaces (UI) for various digital platforms, including creating the UI for an online Quran learning and testing web application. Furthermore, I have experience in building a company profile website for a Vocational High School (SMK) in Bandung, focusing on easy navigation and engaging information presentation. I am also skilled in designing a landing page website for a Telkom University event with the strategic goal of increasing participant registrations, and developing a company profile website for a tracking company, where the main emphasis is on transparent visualization of fund usage and service information."
+    },
+    "3": {
+      "title": "Graphic Designer",
+      "company": "OTWSAH Invitation",
+      "location": "Bandung",
+      "desc": "Creating attractive and elegant wedding invitation designs using Adobe Photoshop and Canva applications. Responsible for designing various styles of wedding invitations according to client preferences, ensuring high-quality visual aesthetics, and delivering the final designs in a timely manner."
+    },
+    "4": {
+      "title": "Front-end Developer",
+      "company": "PT. Inovasi Tjaraka Buana",
+      "location": "Bandung",
+      "desc": "My primary responsibility was developing a responsive web dashboard for real-time CCTV monitoring using React.js and Tailwind CSS. In this role, I integrated the Dahua REST API to manage live stream data, playback, and device status, while ensuring optimal interface load times. To enhance efficiency, I utilized AI tools to accelerate the creation of visual components, code logic implementation, and technical troubleshooting. Beyond technical tasks, I actively collaborated with the DevOps team and field technicians to ensure seamless data synchronization between the API and the hardware."
+    }
+  },
+  "contact": {
+    "badge": "Contact With Me",
+    "title": "Have a Project in Mind?",
+    "desc": "Let's turn your vision into reality. Reach out and let's build something amazing together.",
+    "namePlaceholder": "Enter your name",
+    "companyPlaceholder": "Company (Optional)",
+    "emailPlaceholder": "Enter your email",
+    "phonePlaceholder": "Phone number",
+    "msgPlaceholder": "Tell me about your project",
+    "submitBtn": "Contact Me"
+  }
+}

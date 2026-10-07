@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+    const { t } = useTranslation();
     // GANTI URL INI DENGAN ENDPOINT UNIK FORMSPREE ANDA
     const FORMSPREE_ENDPOINT = "https://formspree.io/f/xblqreap"; 
 
@@ -10,12 +12,12 @@ export default function Contact() {
                 
                 {/* HEADER */}
                 <div className="text-center mb-16">
-                    <p className="text-[#284b63] dark:text-gray-300 uppercase font-medium text-lg">Contact With Me</p>
+                    <p className="text-[#284b63] dark:text-gray-300 uppercase font-medium text-lg">{t("contact.badge")}</p>
                     <h1 className="text-4xl lg:text-5xl font-extrabold my-3 text-gray-900 dark:text-white">
-                        Have an Project in Mind?
+                        {t("contact.title")}
                     </h1>
                     <p className="text-gray-500 dark:text-gray-400 max-w-xl mx-auto">
-                        There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.
+                        {t("contact.desc")}
                     </p>
                 </div>
 
@@ -30,14 +32,14 @@ export default function Contact() {
                         <input 
                             type="text" 
                             name="name" 
-                            placeholder="Enter your name" 
+                            placeholder={t("contact.namePlaceholder")} 
                             required 
                             className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-[] dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white"
                         />
                         <input 
                             type="text" 
                             name="company" 
-                            placeholder="Company (Optional)" 
+                            placeholder={t("contact.companyPlaceholder")} 
                             className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-[] dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white"
                         />
                     </div>
@@ -47,14 +49,14 @@ export default function Contact() {
                         <input 
                             type="email" 
                             name="email" 
-                            placeholder="Enter your email" 
+                            placeholder={t("contact.emailPlaceholder")} 
                             required 
                             className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-[] dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white"
                         />
                         <input 
                             type="tel" 
                             name="phone" 
-                            placeholder="Phone number" 
+                            placeholder={t("contact.phonePlaceholder")} 
                             className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-[] dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white"
                         />
                     </div>
@@ -63,7 +65,7 @@ export default function Contact() {
                     <div>
                         <textarea 
                             name="project_details" 
-                            placeholder="Tell me about your project" 
+                            placeholder={t("contact.msgPlaceholder")} 
                             rows="6" 
                             required 
                             className="w-full p-4 bg-gray-100 dark:bg-gray-800 rounded-lg border border-[] dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder-gray-500 dark:placeholder-gray-400 dark:text-white resize-none"
@@ -76,7 +78,7 @@ export default function Contact() {
                             type="submit" 
                             className="px-8 py-3 bg-[#284b63] dark:bg-[#d9d9d9] text-white dark:text-[#284b63] font-semibold rounded-lg hover:bg-blue-700 transition duration-300 shadow-lg"
                         >
-                            Contact Me
+                            {t("contact.submitBtn")}
                         </button>
                     </div>
                 </form>
